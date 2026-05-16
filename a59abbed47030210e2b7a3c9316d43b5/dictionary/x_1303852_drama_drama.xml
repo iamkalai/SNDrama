@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a41cff2d47430210e2b7a3c9316d435c" label="Drama" max_length="40" name="x_1303852_drama_drama" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="China" sequence="0" value="China"/>
+                <element inactive_on_update="false" label="Japan" sequence="0" value="Japan"/>
+                <element inactive_on_update="false" label="South Korea" sequence="0" value="South Korea"/>
+                <element inactive_on_update="false" label="Thailand" sequence="0" value="Thailand"/>
+            </choice>
+        </element>
+        <element label="My Rating" max_length="15" name="my_rating" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="100" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="URL" max_length="1024" name="url" type="url"/>
+        <element label="Viewer Rating" max_length="15" name="viewer_rating" type="decimal"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+    </element>
+</database>
